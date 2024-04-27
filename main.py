@@ -1,15 +1,18 @@
 print("hello")
 
-field = []
-
 void = ""
 
-void_container = []
+field = []
+
+
+voids = []
 
 for i in range(8):
-  void_container.append(void)
+  voids.append(void)
 
-axis = list(range(9))
+axis = []
+axis.append(void)
+axis.append(list(range(9)))
 field.append(axis)
 
 for i in range(9):
