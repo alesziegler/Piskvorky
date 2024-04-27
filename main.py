@@ -10,6 +10,12 @@ for i in range(9):
   column.append(i)
   field.append(column)
 
+extension = ["",'',7]
+
+# what if we extended everything by empty spaces?
+
+field[2].extend(extension)
+
 for column in field:
   for number in column:
     print(number, end=" ")
