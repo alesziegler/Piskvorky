@@ -2,6 +2,13 @@ print("hello")
 
 field = []
 
+void = ""
+
+void_container = []
+
+for i in range(8):
+  void_container.append(void)
+
 axis = list(range(9))
 field.append(axis)
 
