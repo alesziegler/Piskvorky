@@ -12,10 +12,12 @@ for i in range(8):
 
 axis = []
 axis.append(void)
-axis.append(list(range(9)))
+axis.extend(list(range(1,10)))
 field.append(axis)
 
-for i in range(9):
+print(axis)
+
+for i in range(1,10):
   column = []
   column.append(i)
   field.append(column)
