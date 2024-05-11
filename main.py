@@ -32,24 +32,9 @@ for row in field:
   for cell in row:
     # this prints rows, end statement ensures they are printed horizontally:
     print(cell,end=" ")
-      # this ensures that next row is printed below previous one>
+      # this ensures that next row is printed below previous one:
   print(end= "\n")
 
 field[4][5] = 50
 
 print()
-"""
-axis = list(range(9))
-
-for n in axis:
-  for n in axis:
-    print(n,end=" ")
-  print(end ="\n")
-
-print()
-
-for i in range(9):
-  for j in range(9):
-    print(list(range(9)),end="")
-  print(end= "\n")
-"""
